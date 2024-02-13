@@ -1,0 +1,164 @@
+Certainly! Here's the modified HTML code with the "Name" row pushed one step to the right:
+
+```html
+<!-- Name - kartik Pandit
+Date - 13/02/2024
+Description- Data about planets using HTML tables and some methods. -->
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <!--Title-->
+  <title>Planets data</title>
+  <!--Link to the css-->
+  <link rel="stylesheet" href="C:\Users\guts\Desktop\WEB d\Assignment-2(part-2).css.css">
+</head>
+<body>
+  <h1>Planets Data</h1>
+
+  <table border="1">
+    <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
+    <thead>
+      <!--Main headings -->
+      <tr>
+        <!-- Empty cell for spacing -->
+        <td></td>
+        <th style="border-top: 3px solid; border-left: 3px solid; border-right: 3px solid;">Name</th>
+        <th>Mass (10<sup>24</sup>kg)</th>
+        <th>Diameter (km)</th>
+        <th>Density (kg/m<sup>3</sup>)</th>
+        <th>Gravity (m/s<sup>2</sup>)</th>
+        <th>Length of day (hours)</th>
+        <th>Distance from Sun (10<sup>6</sup>km)</th>
+        <th>Mean temperature (°C)</th>
+        <th>Number of moons</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!--data of planets -->
+      <tr>
+        <!--Terrestrial planets-->
+        <!--Mercury-->
+        <td rowspan="4"><b>Terrestrial planets</b></td>
+        <td style="border-left: 3px solid ;border-right: 3px solid; "><b>Mercury</b></td>
+        <td>0.330</td>
+        <td>4,879</td>
+        <td>5427</td>
+        <td>3.7</td>
+        <td>4222.6</td>
+        <td>57.9</td>
+        <td>167</td>
+        <td>0</td>
+        <td>Closest to the Sun</td>
+      </tr>
+      <tr>
+        <td style="border-right: 3px solid; border-left: 3px solid;"><b>Venus</b></td>
+        <!--Venus-->
+        <td>4.87</td>
+        <td>12,104</td>
+        <td>5243</td>
+        <td>8.9</td>
+        <td>2802.0</td>
+        <td>108.2</td>
+        <td>464</td>
+        <td>0</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td style="border-left: 3px solid ;border-right: 3px solid; "><b>Earth</b></td>
+        <!--Earth-->
+        <td>5.97</td>
+        <td>12,756</td>
+        <td>5514</td>
+        <td>9.8</td>
+        <td>24.0</td>
+        <td>149.6</td>
+        <td>15</td>
+        <td>1</td>
+        <td>Our world</td>
+      </tr>
+      <tr>
+        <td style="border-left: 3px solid ;border-right: 3px solid; "><b>Mars</b></td>
+        <!--Mars-->
+        <td>0.642</td>
+        <td>6,792</td>
+        <td>3933</td>
+        <td>3.7</td>
+        <td>24.7</td>
+        <td>227.9</td>
+        <td>-65</td>
+        <td>2</td>
+        <td>The red planet</td>
+      </tr>
+      <tr>
+        <td rowspan="2"><b>Jovian planets</b></td>
+        <td style="border-left: 3px solid ;border-right: 3px solid; "><b>Jupiter</b></td>
+        <!--Jupiter-->
+        <td>1898</td>
+        <td>142,984</td>
+        <td>1326</td>
+        <td>23.1</td>
+        <td>9.9</td>
+        <td>778.6</td>
+        <td>-110</td>
+        <td>67</td>
+        <td>The largest planet</td>
+      </tr>
+      <tr>
+        <td style="border-left: 3px solid ;border-right: 3px solid; "><b>Saturn</b></td>
+        <!--Saturn-->
+        <td>568</td>
+        <td>120,536</td>
+        <td>687</td>
+        <td>9.0</td>
+        <td>10.7</td>
+        <td>1433.5</td>
+        <td>-140</td>
+        <td>62</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td rowspan="2"><b>Ice giants</b></td>
+        <td style="border-left: 3px solid ;border-right: 3px solid; "><b>Uranus</b></td>
+        <!--Uranus-->
+        <td>86.8</td>
+        <td>51,118</td>
+        <td>1271</td>
+        <td>8.7</td>
+        <td>17.2</td>
+        <td>2872.5</td>
+        <td>-195</td>
+        <td>27</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td style="border-left: 3px solid ;border-right: 3px solid; "><b>Neptune</b></td>
+        <!--Neptune-->
+        <td>102</td>
+        <td>49,528</td>
+        <td>1638</td>
+        <td>11.0</td>
+        <td>16.1</td>
+        <td>4495.1</td>
+        <td>-200</td>
+        <td>14</td>
+        <td></td>
+      </tr>
+      <tr>
+        <!--Venus-->
+        <!--Pluto-->
+        <td rowspan="1"><b>Dwarf planets*</b></td>
+        <td style="border-left: 3px solid ;border-right: 3px solid;border-bottom: 3px solid; "><b>Pluto</b></td>
+        <td>0.0146</td>
+        <td>2,370</td>
+        <td>2095</td>
+        <td>0.7</td>
+        <td>153.3</td>
+        <td>5906.4</td>
+        <td>-225</td>
+        <td>5</td>
+        <td>Declassified as a planet in 2006, but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.</td>
+      </tr>
+    </tbody>
+  </table>

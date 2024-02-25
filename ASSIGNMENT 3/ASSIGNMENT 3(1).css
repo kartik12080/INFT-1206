@@ -1,0 +1,59 @@
+/*
+Name: Kartik
+Student Id: 100935721
+Assignment-3(1)
+Date: 24-02-2024
+*/
+
+/* Body styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for the main heading (h1) */
+h1 {
+  color: hotpink; /* Set text color to hotpink */
+  border-bottom: 10px dotted purple; /* Add a dotted purple border-bottom */
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Make h2 italic */
+h2 {
+  font-style: italic;
+}
+
+/* Style ul for contact details */
+.outerbox {
+  background-color: #eeeeee;
+  border: 5px solid purple;
+  padding: 10px; /* Adjust padding as needed */
+}
+
+/* Change link color on hover */
+a:hover {
+  color: green; /* Set link color to green on hover */
+}
+
+/* Style for job titles with class 'job-title' */
+.job-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #999999;
+  margin-bottom: 2rem;
+}
+
+/* Style for email addresses with class 'email' */
+.email {
+  color: #367d20ff; /* Set email text color */
+}
+
+/* Update email and web link colors in 'outerbox' */
+.outerbox a[href*="mailto:"] {
+  color: #388022ff; /* Set email link color */
+}
+
+/* Update link color for web links in 'outerbox' */
+.outerbox a[href*="http://"] {
+  color: #e8795aff; /* Set web link color */
+}

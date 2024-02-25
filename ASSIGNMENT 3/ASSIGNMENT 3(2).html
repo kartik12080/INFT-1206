@@ -1,0 +1,62 @@
+<!--
+	Name: Kartik
+  Student Id: 100935721
+	File: ASSIGNMENT 3(2)
+	Date: 20-02-2024
+	The document's CSS styles are contained in this file, which can be used to style headings, job titles, and links by adjusting font families, colours, and other attributes.
+-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cool box</title>
+  <style>
+    html {
+      font-family: sans-serif;
+    }
+
+    div {
+      /* Changing the size and positions */
+      width: 200px;
+      margin: auto;
+      /* A reasonable height for a large box, centering the text vertically in the process */
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      /* Assuming the default font size is 16px, 1.125rem is equivalent to 18px */
+      font-size: 1.125rem;
+
+      /* background */
+      /* base color for design */
+      background-color: red;
+      background-image: linear-gradient(to top left,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2) 30%,
+          rgba(0, 0, 0, 0));
+
+      /*  contrasting color for the text and a black text shadow. */
+      color: white;
+      text-shadow: 1px 1px 1px black;
+
+      /*border*/
+      border-radius: 10px;
+      border: 1px solid #990000;
+
+      /* other effects */
+      box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6), 2px 2px 5px black;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div>This is a cool box</div>
+</body>
+
+</html>
